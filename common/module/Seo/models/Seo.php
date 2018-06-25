@@ -1,6 +1,6 @@
 <?php
 
-namespace common\models;
+namespace common\module\Seo\models;
 
 use Yii;
 use yii\behaviors\TimestampBehavior;
@@ -13,8 +13,6 @@ use yii\behaviors\TimestampBehavior;
  * @property string $seo_title
  * @property string $seo_description
  * @property string $seo_keywords
- * @property int $created_at
- * @property int $updated_at
  */
 class Seo extends \yii\db\ActiveRecord
 {

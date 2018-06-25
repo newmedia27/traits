@@ -7,7 +7,7 @@ use yii\widgets\ActiveForm;
 /* @var $model common\models\Post */
 /* @var $form yii\widgets\ActiveForm */
 ?>
-
+<?//= '<pre>';print_r($model->seo);die;?>
 <div class="post-form">
 
     <?php $form = ActiveForm::begin(); ?>
